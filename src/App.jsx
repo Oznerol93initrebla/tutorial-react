@@ -7,7 +7,7 @@ function App() {
     <>
     <WelcomeMessage message={'Hello World'} title={true}/>
     <WelcomeMessage/>
-    <Counter />
+    <Counter start = {1}/>
     </>
   )
   }
